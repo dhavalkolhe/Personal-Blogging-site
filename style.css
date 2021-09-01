@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar-fixed-top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    background-color:white;
+
+}
+
+.blog-logo{
+    /* background-color: black; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    
+    justify-content: space-between;
+}
+#sign-out{
+    margin-right: 2.5rem;
+    height: 2.5rem;
+    width: 6rem;
+    transform: translateY(-1.5rem);
+}
+.header{
+    
+    position: fixed;
+    padding: 1rem;
+    padding-left: 2.5rem;
+    background-color:white;
+    top: 4rem;
+    /* height: 5rem; */
+    width: 100%;
+    
+    left: 40%;
+    display: flex;
+    place-items: center stretch;
+    
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-top: 9rem;
+    padding: 1rem;
+}
+
+.content-wrap{
+    margin-top: 4rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+h3{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+h2{
+    margin-top: 0rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+p{
+    font-family: 'STIX Two Math', serif;
+    padding-top: 1rem;
+}
+
+.btn{
+    padding: 2px;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2.5rem;
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(65, 63, 63);
+}
+
+.end-section{
+    box-sizing: border-box;
+    min-height: 30vh;
+    min-width: 20vw;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    padding: 1.5rem;
+    align-self: center;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #E36B6B; */
+    
+}
+
+#end-logo{
+    padding-bottom: 1rem;
+}
+
+.end-text{
+    padding: 1.5rem;
+}
+
+.logo-text{
+    /* padding: 2.5rem; */
+    font-size: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    
+}
+
+.nav-logo{
+    /* background-color: black; */
+    margin-left: 50%;
+    
+}
+/*fixed content right*/
+
+.fixed-section{
+    margin-right: 60%;
+    /* background-color: black; */
+    margin-top: -5rem;
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    
+    
+}
+.back-img-container{
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+    
+}
+
+.back-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+    
+}
+
+.fixed-content{
+    /* background-color: black; */
+    margin-top: 55%;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    
+}
+
+
+h1{
+    display: block;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    /* color: white; */
+    font-family: 'Lora', serif;
+    font-weight: 800;
+    /* background-color: black; */
+}
+
+.description{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-right: 2.1rem;
+    padding-left: 0.3rem;
+    line-height: 1.6;
+    /* background-color: black; */
+    transform: translateY(-1.6rem);
+}
+
+#line{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    transform: translateY(-1.8rem);
+}
+
+.sub-footer{
+    display: flex;
+    margin-top: -5%;
+    justify-content: space-between;
+}
+
+#follow-me{
+    
+    font-size: 0.9rem;
+    font-weight: 800;
+    font-family:'Open Sans', sans-serif;
+    letter-spacing: 0.05rem;
+}
+
+.icon-pallete{
+    background-color: rgb(252, 252, 252);
+    height: 1.7rem;
+    width: 25%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.7rem;
+    
+}
+
+#end-icon{
+    background-color:inherit;
+    width: 50%;
+}
+
+
+
+.main-img{
+    /* background-color: black; */
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.content-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+.zoom {
+   
+    
+    transition: transform 3s; /* Animation */
+    
+    z-index: -1;
+    margin: 0 auto;
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom)*/
+  }
